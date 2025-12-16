@@ -1,0 +1,60 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+!/mvnw
+!/mvnw.cmd
+
+# Build directories
+/out/
+/bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Generated files
+/generated-sources/
+/generated-test-sources/
+
+# Surefire / test reports
+/surefire-reports/
+
+# Log files
+*.log
+logs/
+
+# Local config / sensitive
+.env
+local.properties
+*.jks
+*.keystore
+
+# macOS
+.DS_Store
+
+# Swap / temp
+*~
+*.swp
+
+# Coverage
+jacoco.exec
+
+# Misc
+.idea_modules/
+
+# Ignore Maven wrapper jar if you don't want to commit it (optional)
+#maven-wrapper.jar
